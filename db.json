@@ -1,0 +1,134 @@
+{
+  "fruits": [
+    {
+      "id": 0,
+      "name": "Mango",
+      "image": "images/mango.png",
+      "category": "Stone fruit",
+      "type": "Tropical",
+      "price": "1.73",
+      "featured": true,
+      "description": "Sweet and juicy tropical fruit with a smooth, orange flesh. Excellent source of vitamin A and C."
+    },
+    {
+      "id": 1,
+      "name": "Dragon Fruit",
+      "image": "images/dragonfruit.png",
+      "category": "Cactus fruit",
+      "type": "Tropical",
+      "price": "2.14",
+      "featured": true,
+      "description": "Vibrant pink or white flesh with small black seeds. Sweet and refreshing flavor."
+    },
+    {
+      "id": 2,
+      "name": "Guava",
+      "image": "images/guava.png",
+      "category": "Tropical fruit",
+      "type": "Tropical",
+      "price": "1.29",
+      "featured": true,
+      "description": "Sweet and tangy fruit with a soft, pink or white flesh. Rich in vitamin C and antioxidants."
+    },
+    {
+      "id": 3,
+      "name": "Strawberry",
+      "image": "images/strawberry.png",
+      "category": "Aggregate fruit",
+      "type": "Berry",
+      "price": "3.45",
+      "featured": true,
+      "description": "Sweet and juicy berries with a bright red color. Excellent source of vitamin C and antioxidants."
+    },
+    {
+      "id": 4,
+      "name": "Apple",
+      "image": "images/apple.png",
+      "category": "Pome fruit",
+      "type": "Temperate",
+      "price": "1.73",
+      "featured": false,
+      "description": "Crisp and sweet with a firm texture. Available in various colors like red, green, and yellow."
+    },
+    {
+      "id": 5,
+      "name": "Banana",
+      "image": "images/banana.png",
+      "category": "Berry",
+      "type": "Subtropical",
+      "price": "1.07",
+      "featured": false,
+      "description": "Soft and creamy with a slightly sweet flavor. Highly nutritious and convenient to eat."
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "fruitId": 0,
+      "rating": 5,
+      "comment": "The Mango is heavenly!",
+      "author": "TropicalTaste",
+      "date": "2022-09-12T13:45:00.000Z"
+    },
+    {
+      "id": 1,
+      "fruitId": 1,
+      "rating": 4,
+      "comment": "Dragon Fruit is so exotic, love the taste!",
+      "author": "ExoticEater",
+      "date": "2022-10-05T11:20:00.000Z"
+    },
+    {
+      "id": 2,
+      "fruitId": 3,
+      "rating": 5,
+      "comment": "Strawberries are always a delight!",
+      "author": "BerryLover",
+      "date": "2022-11-18T17:30:00.000Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Fresh Fruit Bundle",
+      "image": "images/fruitbundle.png",
+      "label": "Special",
+      "price": "12.99",
+      "featured": true,
+      "description": "Enjoy a bundle of the freshest seasonal fruits at a special price. Limited time offer!"
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Peter Pear",
+      "image": "images/avatar.png",
+      "designation": "Chief Fruit Officer",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Our CFO, Peter, has a passion for promoting healthy eating through a variety of fresh fruits. He believes in the power of fruits to enhance well-being and brings that philosophy to our fruit shop."
+    },
+    {
+      "id": 1,
+      "name": "Dhanasekaran Berry",
+      "image": "images/avatar.png",
+      "designation": "Chief Flavor Officer",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Dhanasekaran, or Danny as he is fondly called, is dedicated to exploring and combining flavors to create unique fruit experiences. His love for berries inspires our diverse menu."
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "fruitlover",
+      "lastname": "123",
+      "telnum": "987654321",
+      "email": "fruitlover@example.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "I absolutely love your Mango! It's the best I've ever had.",
+      "date": "2023-01-10T09:30:00.000Z",
+      "id": 1
+    }
+  ]
+}
